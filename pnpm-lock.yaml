@@ -199,7 +199,7 @@ importers:
       '@graphql-ez/plugin-websockets': ^0.10.5
       '@react-native-async-storage/async-storage': ^1.17.12
       '@types/extract-files': ^8.1.1
-      '@types/graphql-upload': ^8.0.11
+      '@types/graphql-upload': ^8.0.12
       '@types/lodash': ^4.14.182
       '@types/node': ^17.0.35
       '@types/react': ^17.0.45
@@ -248,7 +248,7 @@ importers:
       '@graphql-ez/plugin-codegen': 0.7.10_w4jxnhkiyc463qq7lsxhh2ysdm
       '@graphql-ez/plugin-dataloader': 0.6.1_3kx7l67agz4oy6ahmmg3ahjspe
       '@graphql-ez/plugin-schema': 0.8.5_w4jxnhkiyc463qq7lsxhh2ysdm
-      '@graphql-ez/plugin-upload': 0.7.2_pbc3lpxpjt57ub7ttkcn3syhly
+      '@graphql-ez/plugin-upload': 0.7.2_66fni5wwbspnidv7265uwqvuem
       '@graphql-ez/plugin-websockets': 0.10.5_w4jxnhkiyc463qq7lsxhh2ysdm
       '@react-native-async-storage/async-storage': 1.17.12
       '@types/extract-files': 8.1.1
@@ -276,7 +276,7 @@ importers:
       use-error-boundary: 2.0.6_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
       '@fastify/nextjs': 8.0.2_next@12.1.6
-      '@types/graphql-upload': 8.0.11
+      '@types/graphql-upload': 8.0.12
       '@types/lodash': 4.14.182
       '@types/node': 17.0.35
       '@types/react': 17.0.45
@@ -3481,7 +3481,7 @@ packages:
       - '@types/node'
     dev: false
 
-  /@graphql-ez/plugin-upload/0.7.2_pbc3lpxpjt57ub7ttkcn3syhly:
+  /@graphql-ez/plugin-upload/0.7.2_66fni5wwbspnidv7265uwqvuem:
     resolution: {integrity: sha512-b1+qV4RuOr2Ano0En+StVU+cJavxjrzqqXoB66PnoIPFDBxA/rgPAX9G9xby2MGICzfhmjEQn3kbp4X4k64BBA==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
@@ -3496,7 +3496,7 @@ packages:
         optional: true
     dependencies:
       '@graphql-ez/utils': 0.1.4_q6qi6dame5k4ytdcjqikteqque
-      '@types/graphql-upload': 8.0.11
+      '@types/graphql-upload': 8.0.12
       graphql: 16.5.0
       graphql-ez: 0.15.0_q6qi6dame5k4ytdcjqikteqque
       graphql-upload: 13.0.0_graphql@16.5.0
@@ -5093,11 +5093,6 @@ packages:
     resolution: {integrity: sha512-dMJJqBqyhsfJKuK7p7HyyNmki7qj1AlwhUKWx6KrU7i1K2T2SPsUsSUTWFmr/sEM1q8rfR8j5IyUmYrDbrhfjQ==}
     dev: false
 
-  /@types/fs-capacitor/2.0.0:
-    resolution: {integrity: sha512-FKVPOCFbhCvZxpVAMhdBdTfVfXUpsh15wFHgqOKxh9N9vzWZVuWCSijZ5T4U34XYNnuj2oduh6xcs1i+LPI+BQ==}
-    dependencies:
-      '@types/node': 17.0.35
-
   /@types/glob/7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
@@ -5110,12 +5105,12 @@ packages:
     dependencies:
       '@types/node': 17.0.35
 
-  /@types/graphql-upload/8.0.11:
-    resolution: {integrity: sha512-AE8RWANHutpsQt945lQZKlkq0V/zBxU5R0xhKLZN3KkBMlW95/5uJzk01HUl8gbDkG7hGl8l8lJKbi91k0UnPw==}
+  /@types/graphql-upload/8.0.12:
+    resolution: {integrity: sha512-M0ZPZqNUzKNB16q5woEzgG/Q8DjICV80K7JvDSRnDmDFfrRdfFX/n6PbmqAN7gCzECcHVnw1gk6N4Cg0FwxCqA==}
     dependencies:
       '@types/express': 4.17.13
-      '@types/fs-capacitor': 2.0.0
       '@types/koa': 2.13.4
+      fs-capacitor: 8.0.0
       graphql: 16.5.0
 
   /@types/hast/2.3.4:
@@ -8339,6 +8334,10 @@ packages:
     resolution: {integrity: sha512-nKcE1UduoSKX27NSZlg879LdQc94OtbOsEmKMN2MBNudXREvijRKx2GEBsTMTfws+BrbkJoEuynbGSVRSpauvw==}
     engines: {node: '>=10'}
     dev: false
+
+  /fs-capacitor/8.0.0:
+    resolution: {integrity: sha512-+Lk6iSKajdGw+7XYxUkwIzreJ2G1JFlYOdnKJv5PzwFLVsoJYBpCuS7WPIUSNT1IbQaEWT1nhYU63Ud03DyzLA==}
+    engines: {node: ^14.17.0 || >=16.0.0}
 
   /fs-extra/10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
