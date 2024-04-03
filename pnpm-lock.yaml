@@ -61,8 +61,8 @@ importers:
         specifier: ^28.1.0
         version: 28.1.0(@types/node@17.0.45)(ts-node@10.7.0)
       open:
-        specifier: ^8.4.0
-        version: 8.4.0
+        specifier: ^8.4.2
+        version: 8.4.2
       prettier:
         specifier: ^2.6.2
         version: 2.6.2
@@ -349,8 +349,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0
       open:
-        specifier: ^8.4.0
-        version: 8.4.0
+        specifier: ^8.4.2
+        version: 8.4.2
       react:
         specifier: ^17.0.2
         version: 17.0.2
@@ -11561,6 +11561,15 @@ packages:
 
   /open@8.4.0:
     resolution: {integrity: sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==}
+    engines: {node: '>=12'}
+    dependencies:
+      define-lazy-prop: 2.0.0
+      is-docker: 2.2.1
+      is-wsl: 2.2.0
+    dev: true
+
+  /open@8.4.2:
+    resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
     engines: {node: '>=12'}
     dependencies:
       define-lazy-prop: 2.0.0
