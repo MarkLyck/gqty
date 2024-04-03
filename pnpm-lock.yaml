@@ -456,8 +456,8 @@ importers:
         specifier: ^4.6.4
         version: 4.6.4
       vite:
-        specifier: ^2.9.9
-        version: 2.9.9
+        specifier: ^2.9.18
+        version: 2.9.18
 
   integration/graphql-17:
     devDependencies:
@@ -14449,8 +14449,8 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /vite@2.9.9:
-    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
+  /vite@2.9.18:
+    resolution: {integrity: sha512-sAOqI5wNM9QvSEE70W3UGMdT8cyEn0+PmJMTFvTB8wB0YbYUWw3gUbY62AOyrXosGieF2htmeLATvNxpv/zNyQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
