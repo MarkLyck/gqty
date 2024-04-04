@@ -103,8 +103,8 @@ importers:
         specifier: ^0.4.1
         version: 0.4.1(@graphql-ez/fastify@0.12.1)(@graphql-typed-document-node/core@3.1.1)(@types/node@17.0.45)(fastify@3.29.5)(graphql-ez@0.15.0)(graphql@16.5.0)
       '@graphql-ez/plugin-altair':
-        specifier: ^0.9.10
-        version: 0.9.10(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
+        specifier: ^0.11.3
+        version: 0.11.3(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
       '@graphql-ez/plugin-codegen':
         specifier: ^0.7.10
         version: 0.7.10(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
@@ -286,8 +286,8 @@ importers:
         specifier: ^0.12.1
         version: 0.12.1(@types/node@17.0.45)(fastify@3.29.5)(graphql-ez@0.15.0)(graphql@16.5.0)
       '@graphql-ez/plugin-altair':
-        specifier: ^0.9.10
-        version: 0.9.10(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
+        specifier: ^0.11.3
+        version: 0.11.3(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
       '@graphql-ez/plugin-codegen':
         specifier: ^0.7.10
         version: 0.7.10(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
@@ -3630,17 +3630,17 @@ packages:
       next: 12.1.6(react-dom@17.0.2)(react@17.0.2)
     dev: false
 
-  /@graphql-ez/plugin-altair@0.9.10(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0):
-    resolution: {integrity: sha512-YI3uO0mFHEH0qw3e9rLHEqJqvjPOw2GuigowCNF0oUubCrzvqCfi40YpfcX/FQKnYxFXhmuoJx4C/epE53yq8g==}
+  /@graphql-ez/plugin-altair@0.11.3(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0):
+    resolution: {integrity: sha512-DRXTpnYVHifSBLX4tYmEt6Uo/mLTsqFgdirKFbfO5euJwCfOVa8ZIra1ySpZQiMmb3L0hcLPDMDjO42S/fvomA==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
       '@types/node': '*'
-      graphql-ez: ^0.15.0
+      graphql-ez: ^0.16.1
     dependencies:
-      '@graphql-ez/utils': 0.1.4(@types/node@17.0.45)(graphql@16.5.0)
+      '@graphql-ez/utils': 0.2.1(@types/node@17.0.45)(graphql@16.5.0)
       '@types/node': 17.0.45
-      altair-static-slim: 4.4.1
-      cross-fetch: 3.1.5
+      altair-static: 6.4.0
+      cross-undici-fetch: 0.4.14
       graphql-ez: 0.15.0(@types/node@17.0.45)(graphql@16.5.0)
       mime-types: 2.1.35
     transitivePeerDependencies:
@@ -5648,6 +5648,13 @@ packages:
     deprecated: Use your platform's native atob() and btoa() methods instead
     dev: true
 
+  /abort-controller@3.0.0:
+    resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
+    engines: {node: '>=6.5'}
+    dependencies:
+      event-target-shim: 5.0.1
+    dev: false
+
   /abstract-logging@2.0.1:
     resolution: {integrity: sha512-2BjRTZxTPvheOvGbBslFSYOUkr+SjPtOnrLP33f+VIWLzezQpZcqVg7ja3L4dBXmzzgwT+a029jRx5PCi3JuiA==}
 
@@ -5769,8 +5776,9 @@ packages:
       '@algolia/transporter': 4.13.1
     dev: false
 
-  /altair-static-slim@4.4.1:
-    resolution: {integrity: sha512-EzzBe6WG/mxK6J1DICW94huTSEHFoQSrJBEYxHpMZ+WuQXDX6tk2nEcCQIOoIJtMITh81Cnx9j1L0rmrXZI3gQ==}
+  /altair-static@6.4.0:
+    resolution: {integrity: sha512-iW2hAQd858b4ndf3jBloZLhDP4HLOaLABfY+VjBFwvfn7zdYp4XPrlCr/Ypl2Nr+ekwRCPef8lnciungfx48fg==}
+    engines: {node: '>= 6.9.1'}
     dev: false
 
   /ansi-align@3.0.1:
@@ -6473,6 +6481,13 @@ packages:
       dicer: 0.3.0
     dev: false
 
+  /busboy@1.6.0:
+    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
+    engines: {node: '>=10.16.0'}
+    dependencies:
+      streamsearch: 1.1.0
+    dev: false
+
   /bytes-iec@3.1.1:
     resolution: {integrity: sha512-fey6+4jDK7TFtFg/klGSvNKJctyU7n2aQdnM+CO0ruLPbqqMOM8Tio0Pc+deqUeVKX1tL5DQep1zQ7+37aTAsA==}
     engines: {node: '>= 0.8'}
@@ -7144,6 +7159,20 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  /cross-undici-fetch@0.4.14:
+    resolution: {integrity: sha512-CCep44A/baoO8kYJBIR1cRO/tRAk29xzb/tH3O85OtgwZGkL5I0tJZ47ccZdrnAJxrl5tlaYhAOx09fJXMcUqQ==}
+    dependencies:
+      abort-controller: 3.0.0
+      busboy: 1.6.0
+      form-data-encoder: 1.9.0
+      formdata-node: 4.4.1
+      node-fetch: 2.6.7
+      undici: 5.5.1
+      web-streams-polyfill: 3.3.3
+    transitivePeerDependencies:
+      - encoding
+    dev: false
 
   /crypto-random-string@2.0.0:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
@@ -8096,6 +8125,11 @@ packages:
       through: 2.3.8
     dev: true
 
+  /event-target-shim@5.0.1:
+    resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
+    engines: {node: '>=6'}
+    dev: false
+
   /eventemitter3@4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
 
@@ -8550,6 +8584,10 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
+  /form-data-encoder@1.9.0:
+    resolution: {integrity: sha512-rahaRMkN8P8d/tgK/BLPX+WBVM27NbvdXBxqQujBtkDAIFspaRqN7Od7lfdGQA6KAD+f82fYCLBq1ipvcu8qLw==}
+    dev: false
+
   /form-data@4.0.0:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
@@ -8558,6 +8596,14 @@ packages:
       combined-stream: 1.0.8
       mime-types: 2.1.35
     dev: true
+
+  /formdata-node@4.4.1:
+    resolution: {integrity: sha512-0iirZp3uVDjVGt9p49aTaqjk84TrglENEDuqfdlZQ1roC9CWlPk6Avf8EEnZNcAqPonwkG35x4n3ww/1THYAeQ==}
+    engines: {node: '>= 12.20'}
+    dependencies:
+      node-domexception: 1.0.0
+      web-streams-polyfill: 4.0.0-beta.3
+    dev: false
 
   /forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
@@ -11484,6 +11530,11 @@ packages:
       minimatch: 3.1.2
     dev: false
 
+  /node-domexception@1.0.0:
+    resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
+    engines: {node: '>=10.5.0'}
+    dev: false
+
   /node-emoji@1.11.0:
     resolution: {integrity: sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==}
     dependencies:
@@ -13575,6 +13626,11 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: false
 
+  /streamsearch@1.1.0:
+    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
+    engines: {node: '>=10.0.0'}
+    dev: false
+
   /string-argv@0.1.2:
     resolution: {integrity: sha512-mBqPGEOMNJKXRo7z0keX0wlAhbBAjilUdPW13nN0PecVryZxdHIeM7TqbsSUA7VYuS00HGC6mojP7DlQzfa9ZA==}
     engines: {node: '>=0.6.19'}
@@ -14259,6 +14315,11 @@ packages:
     dependencies:
       '@fastify/busboy': 2.1.1
 
+  /undici@5.5.1:
+    resolution: {integrity: sha512-MEvryPLf18HvlCbLSzCW0U00IMftKGI5udnjrQbC5D4P0Hodwffhv+iGfWuJwg16Y/TK11ZFK8i+BPVW2z/eAw==}
+    engines: {node: '>=12.18'}
+    dev: false
+
   /unfetch@4.2.0:
     resolution: {integrity: sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA==}
     dev: true
@@ -14669,6 +14730,16 @@ packages:
     resolution: {integrity: sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=}
     dependencies:
       defaults: 1.0.3
+
+  /web-streams-polyfill@3.3.3:
+    resolution: {integrity: sha512-d2JWLCivmZYTSIoge9MsgFCZrt571BikcWGYkjC1khllbTeDlGqZ2D8vD8E/lJa8WGWbb7Plm8/XJYV7IJHZZw==}
+    engines: {node: '>= 8'}
+    dev: false
+
+  /web-streams-polyfill@4.0.0-beta.3:
+    resolution: {integrity: sha512-QW95TCTaHmsYfHDybGMwO5IJIM93I/6vTRk+daHTWFPhwh+C8Cg7j7XyKrwrj8Ib6vYXe0ocYNrmzY4xAAN6ug==}
+    engines: {node: '>= 14'}
+    dev: false
 
   /webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
