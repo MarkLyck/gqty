@@ -167,8 +167,8 @@ importers:
         specifier: workspace:^2.1.0
         version: link:../../packages/react/dist
       '@graphql-ez/nextjs':
-        specifier: ^0.10.2
-        version: 0.10.2(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)(next@12.1.6)
+        specifier: ^0.11.1
+        version: 0.11.1(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)(next@12.1.6)
       '@graphql-ez/plugin-codegen':
         specifier: ^0.7.10
         version: 0.7.10(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
@@ -3608,21 +3608,21 @@ packages:
       graphql-ez: 0.15.0(@types/node@17.0.45)(graphql@17.0.0-alpha.3)
     dev: true
 
-  /@graphql-ez/nextjs@0.10.2(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)(next@12.1.6):
-    resolution: {integrity: sha512-+hZ+tvHtW6uYdD7apjFZGJ0t5ASLbccCyKC2zpqYE9FAETBUevsV2TweeUjT/J3BgNSkJC2uQQflKhg2WrtrVg==}
+  /@graphql-ez/nextjs@0.11.1(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)(next@12.1.6):
+    resolution: {integrity: sha512-cB6fliaQx48hNarlP/uQTb5wU4nOwYRsKDRzw4WoHHxS9fjc+ABu3WDWFJJzeCQZoZAm7Dlkxs/DRBHp1R81Vg==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
       '@types/node': '*'
       graphql: '*'
-      graphql-ez: ^0.15.0
-      next: ^12.1.6
+      graphql-ez: ^0.16.1
+      next: ^12.3.4
     peerDependenciesMeta:
       graphql:
         optional: true
       next:
         optional: true
     dependencies:
-      '@types/cors': 2.8.12
+      '@types/cors': 2.8.17
       '@types/node': 17.0.45
       cors: 2.8.5
       graphql: 16.5.0
@@ -5315,8 +5315,10 @@ packages:
       '@types/keygrip': 1.0.2
       '@types/node': 17.0.45
 
-  /@types/cors@2.8.12:
-    resolution: {integrity: sha512-vt+kDhq/M2ayberEtJcIN/hxXy1Pk+59g2FV/ZQceeaTyCtCucjL2Q7FXlFjtWn4n15KCr1NE2lNNFhp0lEThw==}
+  /@types/cors@2.8.17:
+    resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
+    dependencies:
+      '@types/node': 17.0.45
     dev: false
 
   /@types/debug@4.1.7:
