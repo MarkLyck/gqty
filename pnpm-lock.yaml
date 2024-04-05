@@ -613,7 +613,7 @@ importers:
         version: 11.8.1(@emotion/react@11.9.0)(@types/react@17.0.80)(react@17.0.2)
       '@guild-docs/client':
         specifier: 2.1.1
-        version: 2.1.1(@chakra-ui/icons@1.1.7)(@chakra-ui/react@1.8.9)(@chakra-ui/utils@1.10.4)(@emotion/react@11.9.0)(@mdx-js/react@2.1.1)(@theguild/components@1.11.8)(@types/react@17.0.80)(framer-motion@6.3.3)(next-i18next@11.0.0)(next-seo@5.4.0)(next@12.1.6)(react-dom@17.0.2)(react-icons@4.3.1)(react-use@17.4.0)(react@17.0.2)(shiki@0.10.1)
+        version: 2.1.1(@chakra-ui/icons@1.1.7)(@chakra-ui/react@1.8.9)(@chakra-ui/utils@1.10.4)(@emotion/react@11.9.0)(@mdx-js/react@2.1.1)(@theguild/components@1.12.0)(@types/react@17.0.80)(framer-motion@6.3.3)(next-i18next@11.0.0)(next-seo@5.4.0)(next@12.1.6)(react-dom@17.0.2)(react-icons@4.3.1)(react-use@17.4.0)(react@17.0.2)(shiki@0.10.1)
       '@guild-docs/server':
         specifier: 4.0.0
         version: 4.0.0(@chakra-ui/react@1.8.9)(@mdx-js/react@2.1.1)(@types/react@17.0.80)(next-i18next@11.0.0)(next@12.1.6)(react-dom@17.0.2)(react@17.0.2)(shiki@0.10.1)
@@ -621,8 +621,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1(react@17.0.2)
       '@theguild/components':
-        specifier: ^1.11.8
-        version: 1.11.8(@types/react@17.0.80)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.7.0)
+        specifier: ^1.12.0
+        version: 1.12.0(@types/react@17.0.80)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.7.0)
       csstype:
         specifier: ^3.1.3
         version: 3.1.3
@@ -4133,7 +4133,7 @@ packages:
       graphql: 17.0.0-alpha.3
     dev: true
 
-  /@guild-docs/client@2.1.1(@chakra-ui/icons@1.1.7)(@chakra-ui/react@1.8.9)(@chakra-ui/utils@1.10.4)(@emotion/react@11.9.0)(@mdx-js/react@2.1.1)(@theguild/components@1.11.8)(@types/react@17.0.80)(framer-motion@6.3.3)(next-i18next@11.0.0)(next-seo@5.4.0)(next@12.1.6)(react-dom@17.0.2)(react-icons@4.3.1)(react-use@17.4.0)(react@17.0.2)(shiki@0.10.1):
+  /@guild-docs/client@2.1.1(@chakra-ui/icons@1.1.7)(@chakra-ui/react@1.8.9)(@chakra-ui/utils@1.10.4)(@emotion/react@11.9.0)(@mdx-js/react@2.1.1)(@theguild/components@1.12.0)(@types/react@17.0.80)(framer-motion@6.3.3)(next-i18next@11.0.0)(next-seo@5.4.0)(next@12.1.6)(react-dom@17.0.2)(react-icons@4.3.1)(react-use@17.4.0)(react@17.0.2)(shiki@0.10.1):
     resolution: {integrity: sha512-ikdcOnjeLvwih+V+WvDCKwP6u8752mVtzK1zjm01H7O+EosmiHHgilHPER7lvvwf7DJ/tBjZJJfqTtvSSrw1zQ==}
     peerDependencies:
       '@chakra-ui/icons': '*'
@@ -4163,7 +4163,7 @@ packages:
       '@guild-docs/mdx-remote': 2.0.2(@chakra-ui/react@1.8.9)(@mdx-js/react@2.1.1)(@types/react@17.0.80)(next-i18next@11.0.0)(react@17.0.2)(shiki@0.10.1)
       '@guild-docs/types': 2.0.0(@chakra-ui/react@1.8.9)(@types/react@17.0.80)(next-i18next@11.0.0)
       '@mdx-js/react': 2.1.1(react@17.0.2)
-      '@theguild/components': 1.11.8(@types/react@17.0.80)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.7.0)
+      '@theguild/components': 1.12.0(@types/react@17.0.80)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.7.0)
       framer-motion: 6.3.3(react-dom@17.0.2)(react@17.0.2)
       immer: 9.0.12
       mdx-mermaid: 1.2.2(mermaid@8.11.5)(react@17.0.2)
@@ -5382,8 +5382,8 @@ packages:
       react-dom: 17.0.2(react@17.0.2)
     dev: true
 
-  /@theguild/components@1.11.8(@types/react@17.0.80)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.7.0):
-    resolution: {integrity: sha512-tpbEFi5rY0r+RIOcfWuoixKADQ/Wp8dyGlpG7uUtWQSnUQ/J0PnB3RpUPa98Ges+mvvX/O44J6R/xPVgA1U+2A==}
+  /@theguild/components@1.12.0(@types/react@17.0.80)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.7.0):
+    resolution: {integrity: sha512-OaFIIbZSRDVDi3Og/XCbFxbvquvOmA084JpptCIIk/urBvOrOw44h9/f70ATHrT5W0XctrKbXj9xbDmKS92cxg==}
     peerDependencies:
       react: ^17.0.2
       react-dom: ^17.0.2
@@ -5396,7 +5396,7 @@ packages:
       '@emotion/styled': 11.8.1(@emotion/react@11.9.0)(@types/react@17.0.80)(react@17.0.2)
       '@radix-ui/react-navigation-menu': 0.1.2(react-dom@17.0.2)(react@17.0.2)
       algoliasearch: 4.13.1
-      focus-trap-react: 8.11.1(react-dom@17.0.2)(react@17.0.2)
+      focus-trap-react: 9.0.2(react-dom@17.0.2)(react@17.0.2)
       polished: 4.2.2
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -5406,7 +5406,7 @@ packages:
       search-insights: 2.2.1
       tinykeys: 1.4.0
       twin.macro: 2.8.2(ts-node@10.7.0)
-      use-debounce: 7.0.1(react@17.0.2)
+      use-debounce: 8.0.4(react@17.0.2)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@babel/core'
@@ -7385,7 +7385,7 @@ packages:
     dev: false
 
   /css-color-names@0.0.4:
-    resolution: {integrity: sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=}
+    resolution: {integrity: sha512-zj5D7X1U2h2zsXOAM8EyUREBnnts6H+Jm+d1M2DbiQQcUtnqgQsMrdo8JW9R80YFUmIdBZeMu5wvYM7hcgWP/Q==}
     dev: false
 
   /css-in-js-utils@2.0.1:
@@ -7832,7 +7832,7 @@ packages:
     dev: false
 
   /defined@1.0.0:
-    resolution: {integrity: sha1-yY2bzvdWdBiOEQlpFRGZ45sfppM=}
+    resolution: {integrity: sha512-Y2caI5+ZwS5c3RiNDJ6u53VhQHv+hHKwhkI1iHvceKUHw9Df6EK2zRLfjejRgMuCuxK7PfSWIMwWecceVvThjQ==}
     dev: false
 
   /del@6.1.0:
@@ -8738,26 +8738,26 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /focus-trap-react@8.11.1(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha512-ZFElB120Ntdxnq0aSWnzQqQ5QY1XUt8T1yuud/BIYAriMTWvyQghsk558ASSSV0iflaUgFQNRjKq3IEFEjGQGA==}
+  /focus-trap-react@9.0.2(react-dom@17.0.2)(react@17.0.2):
+    resolution: {integrity: sha512-ZwhO5by6KG5r3dy48Lk00A1/0zNYw1Z3RZTN6O6kgAPsWFcwTFszOcQ1dLSfM8pIxpS/ttc7wTttJowjVT3jpg==}
     peerDependencies:
       prop-types: ^15.8.1
-      react: '>=16.0.0'
-      react-dom: '>=16.0.0'
+      react: '>=16.3.0'
+      react-dom: '>=16.3.0'
     peerDependenciesMeta:
       prop-types:
         optional: true
     dependencies:
-      focus-trap: 6.9.2
+      focus-trap: 6.9.4
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
-      tabbable: 5.3.2
+      tabbable: 5.3.3
     dev: false
 
-  /focus-trap@6.9.2:
-    resolution: {integrity: sha512-gBEuXOPNOKPrLdZpMFUSTyIo1eT2NSZRrwZ9r/0Jqw5tmT3Yvxfmu8KBHw8xW2XQkw6E/JoG+OlEq7UDtSUNgw==}
+  /focus-trap@6.9.4:
+    resolution: {integrity: sha512-v2NTsZe2FF59Y+sDykKY+XjqZ0cPfhq/hikWVL88BqLivnNiEffAsac6rP6H45ff9wG9LL5ToiDqrLEP9GX9mw==}
     dependencies:
-      tabbable: 5.3.2
+      tabbable: 5.3.3
     dev: false
 
   /follow-redirects@1.15.0:
@@ -9272,11 +9272,11 @@ packages:
     dev: true
 
   /hsl-regex@1.0.0:
-    resolution: {integrity: sha1-1JMwx4ntgZ4nakwNJy3/owsY/m4=}
+    resolution: {integrity: sha512-M5ezZw4LzXbBKMruP+BNANf0k+19hDQMgpzBIYnya//Al+fjNct9Wf3b1WedLqdEs2hKBvxq/jh+DsHJLj0F9A==}
     dev: false
 
   /hsla-regex@1.0.0:
-    resolution: {integrity: sha1-wc56MWjIxmFAM6S194d/OyJfnDg=}
+    resolution: {integrity: sha512-7Wn5GMLuHBjZCb2bTmnDOycho0p/7UVaAeqXZGbHrBCl6Yd/xDhQJAXe6Ga9AXJH2I5zY1dEdYw2u1UptnSBJA==}
     dev: false
 
   /htm@3.1.1:
@@ -9549,7 +9549,7 @@ packages:
     dev: false
 
   /is-arrayish@0.2.1:
-    resolution: {integrity: sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=}
+    resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
 
   /is-arrayish@0.3.2:
     resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
@@ -9578,7 +9578,7 @@ packages:
     dev: true
 
   /is-color-stop@1.1.0:
-    resolution: {integrity: sha1-z/9HGu5N1cnhWFmPvhKWe1za00U=}
+    resolution: {integrity: sha512-H1U8Vz0cfXNujrJzEcvvwMDW9Ra+biSYA3ThdQvAnMLJkEHQXn6bWzLkxHtVYJ+Sdbx0b6finn3jZiaVe7MAHA==}
     dependencies:
       css-color-names: 0.0.4
       hex-color-regex: 1.1.0
@@ -10493,7 +10493,7 @@ packages:
     dev: false
 
   /jsonfile@4.0.0:
-    resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
+    resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
       graceful-fs: 4.2.10
 
@@ -10580,7 +10580,7 @@ packages:
     dev: true
 
   /load-script@1.0.0:
-    resolution: {integrity: sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=}
+    resolution: {integrity: sha512-kPEjMFtZvwL9TaZo0uZ2ml+Ye9HUMmPwbYRJ324qF9tqMejwykJ5ggTyvzmrbBeapCAbk98BSbTeovHEEP1uCA==}
     dev: false
 
   /load-yaml-file@0.2.0:
@@ -10628,11 +10628,11 @@ packages:
     dev: true
 
   /lodash.flatmap@4.5.0:
-    resolution: {integrity: sha1-74y/QI9uSCaGYzRTBcaswLd4cC4=}
+    resolution: {integrity: sha512-/OcpcAGWlrZyoHGeHh3cAoa6nGdX6QYtmzNP84Jqol6UEQQ2gIaU3H+0eICcjcKGl0/XF8LWOujNn9lffsnaOg==}
     dev: false
 
   /lodash.get@4.4.2:
-    resolution: {integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=}
+    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
     dev: false
 
   /lodash.memoize@4.1.2:
@@ -10651,7 +10651,7 @@ packages:
     dev: true
 
   /lodash.topath@4.5.2:
-    resolution: {integrity: sha1-NhY1Hzu6YZlKCTGYlmC9AyVP0Ak=}
+    resolution: {integrity: sha512-1/W4dM+35DwvE/iEd1M9ekewOSTlpFekhw9mhAtrwjVqUr83/ilQiyAvmg4tVX7Unkcfl1KC+i9WdaT4B6aQcg==}
     dev: false
 
   /lodash@4.17.21:
@@ -11803,7 +11803,7 @@ packages:
     engines: {node: '>=0.10.0'}
 
   /normalize-range@0.1.2:
-    resolution: {integrity: sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=}
+    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -12440,7 +12440,7 @@ packages:
       react-is: 18.1.0
 
   /pretty-hrtime@1.0.3:
-    resolution: {integrity: sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=}
+    resolution: {integrity: sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==}
     engines: {node: '>= 0.8'}
     dev: false
 
@@ -12707,6 +12707,7 @@ packages:
 
   /react-instantsearch-dom@6.17.0(algoliasearch@4.13.1)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-KwQJ0HqD9YBvO1VBS+GZC2binTfrGFRClXxDwmd014I9lyqr05m1U2NR81zD0xoBkoZwELP5RWvfpuvbEL0Gdg==}
+    deprecated: package has moved to react-instantsearch
     peerDependencies:
       react: '>= 16.3.0 < 18'
       react-dom: '>= 16.3.0 < 18'
@@ -13223,11 +13224,11 @@ packages:
     resolution: {integrity: sha512-V2hovdzFbOi77/WajaSMXk2OLm+xNIeQdMMuB7icj7bk6zi2F8GGAxigcnDFpJHbNyNcgyJDiP+8nOrY5cZGrA==}
 
   /rgb-regex@1.0.1:
-    resolution: {integrity: sha1-wODWiC3w4jviVKR16O3UGRX+rrE=}
+    resolution: {integrity: sha512-gDK5mkALDFER2YLqH6imYvK6g02gpNGM4ILDZ472EwWfXZnC2ZEpoB2ECXTyOVUKuk/bPJZMzwQPBYICzP+D3w==}
     dev: false
 
   /rgba-regex@1.0.0:
-    resolution: {integrity: sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=}
+    resolution: {integrity: sha512-zgn5OjNQXLUTdq8m17KdaicF6w89TZs8ZU8y0AYENIU6wG8GG6LLm0yLSiPY8DmaYmHdgRW8rnApjoT0fQRfMg==}
     dev: false
 
   /rimraf@2.6.3:
@@ -13553,7 +13554,7 @@ packages:
     resolution: {integrity: sha512-6+eerH9fEnNmi/hyM1DXcRK3pWdoMQtlkQ+ns0ntzunjKqp5i3sKCc80ym8Fib3iaYhdJUOPdhlJWj1tvge2Ww==}
 
   /simple-swizzle@0.2.2:
-    resolution: {integrity: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=}
+    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
     dependencies:
       is-arrayish: 0.3.2
     dev: false
@@ -14058,8 +14059,8 @@ packages:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
     dev: true
 
-  /tabbable@5.3.2:
-    resolution: {integrity: sha512-6G/8EWRFx8CiSe2++/xHhXkmCRq2rHtDtZbQFHx34cvDfZzIBfvwG9zGUNTWMXWLCYvDj3aQqOzdl3oCxKuBkQ==}
+  /tabbable@5.3.3:
+    resolution: {integrity: sha512-QD9qKY3StfbZqWOPLp0++pOrAVb/HbUi5xCc8cUo4XjP19808oaMiDzn0leBY5mCespIBM0CIZePzZjgzR83kA==}
     dev: false
 
   /tailwindcss@2.2.19(autoprefixer@10.4.7)(postcss@8.4.14)(ts-node@10.7.0):
@@ -14165,7 +14166,7 @@ packages:
     dev: true
 
   /timsort@0.3.0:
-    resolution: {integrity: sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=}
+    resolution: {integrity: sha512-qsdtZH+vMoCARQtyod4imc2nIJwg9Cc7lPRrw9CzF8ZKR0khdr8+2nX80PBhET3tcyTtJDxAffGh2rXH4tyU8A==}
     dev: false
 
   /tiny-invariant@1.2.0:
@@ -14711,8 +14712,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /use-debounce@7.0.1(react@17.0.2):
-    resolution: {integrity: sha512-fOrzIw2wstbAJuv8PC9Vg4XgwyTLEOdq4y/Z3IhVl8DAE4svRcgyEUvrEXu+BMNgMoc3YND6qLT61kkgEKXh7Q==}
+  /use-debounce@8.0.4(react@17.0.2):
+    resolution: {integrity: sha512-fGqsYQzl8kLHF2QpQSgIwgOgJmnh6j5L6SIzQiHdLfwp3q1egUL3btq5Bg2SJysH6A0ILLgT2IqXZKoNJr0nFw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       react: '>=16.8.0'
@@ -14772,7 +14773,7 @@ packages:
       node-gyp-build: 4.4.0
 
   /util-deprecate@1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
   /utils-merge@1.0.1:
     resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
