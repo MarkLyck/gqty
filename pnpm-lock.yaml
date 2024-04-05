@@ -173,8 +173,8 @@ importers:
         specifier: ^0.8.1
         version: 0.8.1(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
       '@graphql-ez/plugin-graphiql':
-        specifier: ^0.11.5
-        version: 0.11.5(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
+        specifier: ^0.12.1
+        version: 0.12.1(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
       '@graphql-ez/plugin-schema':
         specifier: ^0.8.5
         version: 0.8.5(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0)
@@ -3815,14 +3815,14 @@ packages:
       - graphql
     dev: false
 
-  /@graphql-ez/plugin-graphiql@0.11.5(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0):
-    resolution: {integrity: sha512-d5dO5DnG6bmLxW+Mpcc/1kUVlampcl7xv8YGnl07B8sJPbsWV8uCWd1kF6vHxtnoMmecUA+nfoJjDelhXfdkkw==}
+  /@graphql-ez/plugin-graphiql@0.12.1(@types/node@17.0.45)(graphql-ez@0.15.0)(graphql@16.5.0):
+    resolution: {integrity: sha512-AtQB3ojtN+2r8gVqnuYqU99FUwtPx+Wv4dtRaUR2ZNtbhPIg/OaIqkspS5pS1rUSMuviUCKw6vTQX6sqIfb1Dg==}
     engines: {node: '>=14.13.1'}
     peerDependencies:
-      graphql-ez: ^0.15.0
+      graphql-ez: ^0.16.1
     dependencies:
-      '@graphql-ez/utils': 0.1.4(@types/node@17.0.45)(graphql@16.5.0)
-      '@pablosz/graphql-helix-graphiql': 4.2.1(@types/node@17.0.45)(graphql@16.5.0)
+      '@graphql-ez/utils': 0.2.1(@types/node@17.0.45)(graphql@16.5.0)
+      '@pablosz/graphql-helix-graphiql': 4.2.3(@types/node@17.0.45)(graphql@16.5.0)
       graphql-ez: 0.15.0(@types/node@17.0.45)(graphql@16.5.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -4861,10 +4861,10 @@ packages:
       - supports-color
     dev: false
 
-  /@pablosz/graphql-helix-graphiql@4.2.1(@types/node@17.0.45)(graphql@16.5.0):
-    resolution: {integrity: sha512-dBxg7MbXwdU2uonXuIJXqjgYfrm0HQuP0Xrp242c4dTA+/PWb0WgM8XIrBYqOb8xAsw/mXNS2034kjytkPQMhA==}
+  /@pablosz/graphql-helix-graphiql@4.2.3(@types/node@17.0.45)(graphql@16.5.0):
+    resolution: {integrity: sha512-U4CnJrarQ8rUObz9913GzSxLHi1fV8b8QPpKMJdX62gGMUJu6jLfICVySo2Y5dMjc+S048bisKHW9YDuARLG/w==}
     dependencies:
-      '@graphql-ez/utils': 0.1.4(@types/node@17.0.45)(graphql@16.5.0)
+      '@graphql-ez/utils': 0.2.1(@types/node@17.0.45)(graphql@16.5.0)
     transitivePeerDependencies:
       - '@types/node'
       - graphql
